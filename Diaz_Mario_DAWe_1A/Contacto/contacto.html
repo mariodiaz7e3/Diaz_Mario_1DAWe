@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- *****************************************************
+NOMBRE: Mario
+APELLIDOS: Diaz Puga
+*********************************************************** -->
+<html>
+
+<head>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="/CSS/form.css" />
+	<title>Contacto</title>
+</head>
+
+<body>
+	<header>
+        <img src="/Imagenes/delicias.png" alt="Delicias">
+		<nav>
+			<ul>
+				<li class="form">
+					<a href="../receta/index.html"><b>Inicio</b></a>
+				</li>
+				<li>
+					<a href="../receta/receta.html"><b>Recetas</b></a>
+				</li>
+				<li>
+					<a href="../listado/listado.html"><b>Lista de platos</b></a>
+				</li>
+				<li>
+					<a href="../contacto/contacto.html"><b>Contacto</b></a>
+				</li>
+			</ul>
+		</nav>
+    </header>
+        
+        <form action="formulario">
+            <h3>Nombre:</h3><input type="text">
+            <h3>Apellidos:</h3><input type="text"> <br>
+        
+            <br><input type="radio" name="genero" value="Hombre"> Hombre <br>
+            <input type="radio" name="genero" value="Mujer"> Mujer <br>
+            <input type="radio" name="genero" value="No binarios"> Prefiero no decirlo <br>
+        
+            <br><input type="checkbox" value="1">
+            <label for="1">Recibir un correo nuestro</label><br>
+            <input type="checkbox" value="2">
+            <label for="2">Recibir alerta de nuevos cambios</label><br>
+            <input type="checkbox" value="3">
+            <label for="3">Recibir nuevos platos</label><br>
+        </form>
+        <form action="/action_page.php">
+            <label for="email"><br>Introduce tu email:</label><br>
+            <input type="email" id="email" name="email">
+            <input type="submit"> 
+        </form>
+        
+    <footer>
+        <p><a href="https://ca-es.facebook.com">Facebook</a></p>
+        <p><a href="https://mobile.twitter.com/ibaillanos?lang=ca">Twitter</a></p>
+        <p><a href="https://www.instagram.com">Instagram</a></li>
+        <p><a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe">Email</a></p>
+    </footer>
+</body>

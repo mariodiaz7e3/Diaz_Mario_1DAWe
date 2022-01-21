@@ -1,0 +1,89 @@
+header{
+    text-align: center;
+}
+nav{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    min-height: 23px;
+    position: relative;
+    clear: both;
+    grid-template-columns: repeat(4,1fr);
+    display: grid
+}
+nav li{
+    display: inline;
+}
+nav li a {
+    text-decoration: none;
+    color: grey;
+    transition: 0.3s;
+    padding: 17px 40px;
+}
+nav li a:hover {
+    font-size: 20px;
+    transition: 0.3s;
+    font-weight: 800;
+    color: mediumaquamarine;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+  }
+
+  footer p{
+    display: inline-block;
+    margin-left: 15px;
+    color: white;
+  }
+
+  footer a:link {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+  }
+
+  footer a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  footer a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #7ABA96;;
+  }
+li a{
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+
+h1{
+    color: #8A8070;
+    text-align: center;
+    font-size: 72px;
+    text-decoration: underline;
+}
+
+.contenido{
+    padding: 40px;
+    margin: 2em;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.fotoprincipal{
+    width: 600px;
+    height: 400px;
+    padding-left: 300px;
+}
+
+
+h3{
+    color: black;
+}
